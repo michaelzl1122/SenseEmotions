@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABDA67381CCC3C78002638A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDA67371CCC3C78002638A9 /* AppDelegate.swift */; };
+		ABDA673A1CCC3C78002638A9 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDA67391CCC3C78002638A9 /* FirstViewController.swift */; };
+		ABDA673C1CCC3C78002638A9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDA673B1CCC3C78002638A9 /* SecondViewController.swift */; };
+		ABDA673F1CCC3C78002638A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABDA673D1CCC3C78002638A9 /* Main.storyboard */; };
+		ABDA67411CCC3C78002638A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABDA67401CCC3C78002638A9 /* Assets.xcassets */; };
+		ABDA67441CCC3C78002638A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABDA67421CCC3C78002638A9 /* LaunchScreen.storyboard */; };
+		ABDA674F1CCC3C78002638A9 /* SenseEmotionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDA674E1CCC3C78002638A9 /* SenseEmotionsTests.swift */; };
+		ABDA675A1CCC3C78002638A9 /* SenseEmotionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDA67591CCC3C78002638A9 /* SenseEmotionsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABDA674B1CCC3C78002638A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABDA672C1CCC3C77002638A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABDA67331CCC3C78002638A9;
+			remoteInfo = SenseEmotions;
+		};
+		ABDA67561CCC3C78002638A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABDA672C1CCC3C77002638A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABDA67331CCC3C78002638A9;
+			remoteInfo = SenseEmotions;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABDA67341CCC3C78002638A9 /* SenseEmotions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SenseEmotions.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABDA67371CCC3C78002638A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ABDA67391CCC3C78002638A9 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		ABDA673B1CCC3C78002638A9 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		ABDA673E1CCC3C78002638A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABDA67401CCC3C78002638A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABDA67431CCC3C78002638A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABDA67451CCC3C78002638A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABDA674A1CCC3C78002638A9 /* SenseEmotionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SenseEmotionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABDA674E1CCC3C78002638A9 /* SenseEmotionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenseEmotionsTests.swift; sourceTree = "<group>"; };
+		ABDA67501CCC3C78002638A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABDA67551CCC3C78002638A9 /* SenseEmotionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SenseEmotionsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABDA67591CCC3C78002638A9 /* SenseEmotionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenseEmotionsUITests.swift; sourceTree = "<group>"; };
+		ABDA675B1CCC3C78002638A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABDA67311CCC3C78002638A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABDA67471CCC3C78002638A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABDA67521CCC3C78002638A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABDA672B1CCC3C77002638A9 = {
+			isa = PBXGroup;
+			children = (
+				ABDA67361CCC3C78002638A9 /* SenseEmotions */,
+				ABDA674D1CCC3C78002638A9 /* SenseEmotionsTests */,
+				ABDA67581CCC3C78002638A9 /* SenseEmotionsUITests */,
+				ABDA67351CCC3C78002638A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABDA67351CCC3C78002638A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABDA67341CCC3C78002638A9 /* SenseEmotions.app */,
+				ABDA674A1CCC3C78002638A9 /* SenseEmotionsTests.xctest */,
+				ABDA67551CCC3C78002638A9 /* SenseEmotionsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABDA67361CCC3C78002638A9 /* SenseEmotions */ = {
+			isa = PBXGroup;
+			children = (
+				ABDA67371CCC3C78002638A9 /* AppDelegate.swift */,
+				ABDA67391CCC3C78002638A9 /* FirstViewController.swift */,
+				ABDA673B1CCC3C78002638A9 /* SecondViewController.swift */,
+				ABDA673D1CCC3C78002638A9 /* Main.storyboard */,
+				ABDA67401CCC3C78002638A9 /* Assets.xcassets */,
+				ABDA67421CCC3C78002638A9 /* LaunchScreen.storyboard */,
+				ABDA67451CCC3C78002638A9 /* Info.plist */,
+			);
+			path = SenseEmotions;
+			sourceTree = "<group>";
+		};
+		ABDA674D1CCC3C78002638A9 /* SenseEmotionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABDA674E1CCC3C78002638A9 /* SenseEmotionsTests.swift */,
+				ABDA67501CCC3C78002638A9 /* Info.plist */,
+			);
+			path = SenseEmotionsTests;
+			sourceTree = "<group>";
+		};
+		ABDA67581CCC3C78002638A9 /* SenseEmotionsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ABDA67591CCC3C78002638A9 /* SenseEmotionsUITests.swift */,
+				ABDA675B1CCC3C78002638A9 /* Info.plist */,
+			);
+			path = SenseEmotionsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABDA67331CCC3C78002638A9 /* SenseEmotions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABDA675E1CCC3C78002638A9 /* Build configuration list for PBXNativeTarget "SenseEmotions" */;
+			buildPhases = (
+				ABDA67301CCC3C78002638A9 /* Sources */,
+				ABDA67311CCC3C78002638A9 /* Frameworks */,
+				ABDA67321CCC3C78002638A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SenseEmotions;
+			productName = SenseEmotions;
+			productReference = ABDA67341CCC3C78002638A9 /* SenseEmotions.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABDA67491CCC3C78002638A9 /* SenseEmotionsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABDA67611CCC3C78002638A9 /* Build configuration list for PBXNativeTarget "SenseEmotionsTests" */;
+			buildPhases = (
+				ABDA67461CCC3C78002638A9 /* Sources */,
+				ABDA67471CCC3C78002638A9 /* Frameworks */,
+				ABDA67481CCC3C78002638A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABDA674C1CCC3C78002638A9 /* PBXTargetDependency */,
+			);
+			name = SenseEmotionsTests;
+			productName = SenseEmotionsTests;
+			productReference = ABDA674A1CCC3C78002638A9 /* SenseEmotionsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABDA67541CCC3C78002638A9 /* SenseEmotionsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABDA67641CCC3C78002638A9 /* Build configuration list for PBXNativeTarget "SenseEmotionsUITests" */;
+			buildPhases = (
+				ABDA67511CCC3C78002638A9 /* Sources */,
+				ABDA67521CCC3C78002638A9 /* Frameworks */,
+				ABDA67531CCC3C78002638A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABDA67571CCC3C78002638A9 /* PBXTargetDependency */,
+			);
+			name = SenseEmotionsUITests;
+			productName = SenseEmotionsUITests;
+			productReference = ABDA67551CCC3C78002638A9 /* SenseEmotionsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABDA672C1CCC3C77002638A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = LeiZhang;
+				TargetAttributes = {
+					ABDA67331CCC3C78002638A9 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					ABDA67491CCC3C78002638A9 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = ABDA67331CCC3C78002638A9;
+					};
+					ABDA67541CCC3C78002638A9 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = ABDA67331CCC3C78002638A9;
+					};
+				};
+			};
+			buildConfigurationList = ABDA672F1CCC3C77002638A9 /* Build configuration list for PBXProject "SenseEmotions" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABDA672B1CCC3C77002638A9;
+			productRefGroup = ABDA67351CCC3C78002638A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABDA67331CCC3C78002638A9 /* SenseEmotions */,
+				ABDA67491CCC3C78002638A9 /* SenseEmotionsTests */,
+				ABDA67541CCC3C78002638A9 /* SenseEmotionsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABDA67321CCC3C78002638A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABDA67441CCC3C78002638A9 /* LaunchScreen.storyboard in Resources */,
+				ABDA67411CCC3C78002638A9 /* Assets.xcassets in Resources */,
+				ABDA673F1CCC3C78002638A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABDA67481CCC3C78002638A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABDA67531CCC3C78002638A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABDA67301CCC3C78002638A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABDA673C1CCC3C78002638A9 /* SecondViewController.swift in Sources */,
+				ABDA67381CCC3C78002638A9 /* AppDelegate.swift in Sources */,
+				ABDA673A1CCC3C78002638A9 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABDA67461CCC3C78002638A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABDA674F1CCC3C78002638A9 /* SenseEmotionsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABDA67511CCC3C78002638A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABDA675A1CCC3C78002638A9 /* SenseEmotionsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABDA674C1CCC3C78002638A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABDA67331CCC3C78002638A9 /* SenseEmotions */;
+			targetProxy = ABDA674B1CCC3C78002638A9 /* PBXContainerItemProxy */;
+		};
+		ABDA67571CCC3C78002638A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABDA67331CCC3C78002638A9 /* SenseEmotions */;
+			targetProxy = ABDA67561CCC3C78002638A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABDA673D1CCC3C78002638A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABDA673E1CCC3C78002638A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABDA67421CCC3C78002638A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABDA67431CCC3C78002638A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABDA675C1CCC3C78002638A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABDA675D1CCC3C78002638A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABDA675F1CCC3C78002638A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SenseEmotions/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UOFA.SenseEmotions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ABDA67601CCC3C78002638A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SenseEmotions/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UOFA.SenseEmotions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ABDA67621CCC3C78002638A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SenseEmotionsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UOFA.SenseEmotionsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SenseEmotions.app/SenseEmotions";
+			};
+			name = Debug;
+		};
+		ABDA67631CCC3C78002638A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SenseEmotionsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UOFA.SenseEmotionsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SenseEmotions.app/SenseEmotions";
+			};
+			name = Release;
+		};
+		ABDA67651CCC3C78002638A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SenseEmotionsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UOFA.SenseEmotionsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SenseEmotions;
+			};
+			name = Debug;
+		};
+		ABDA67661CCC3C78002638A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SenseEmotionsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UOFA.SenseEmotionsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SenseEmotions;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABDA672F1CCC3C77002638A9 /* Build configuration list for PBXProject "SenseEmotions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABDA675C1CCC3C78002638A9 /* Debug */,
+				ABDA675D1CCC3C78002638A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABDA675E1CCC3C78002638A9 /* Build configuration list for PBXNativeTarget "SenseEmotions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABDA675F1CCC3C78002638A9 /* Debug */,
+				ABDA67601CCC3C78002638A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ABDA67611CCC3C78002638A9 /* Build configuration list for PBXNativeTarget "SenseEmotionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABDA67621CCC3C78002638A9 /* Debug */,
+				ABDA67631CCC3C78002638A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ABDA67641CCC3C78002638A9 /* Build configuration list for PBXNativeTarget "SenseEmotionsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABDA67651CCC3C78002638A9 /* Debug */,
+				ABDA67661CCC3C78002638A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABDA672C1CCC3C77002638A9 /* Project object */;
+}
